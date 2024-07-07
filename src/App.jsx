@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Subscribe from './components/Subscribe/Subscribe';
 import Footer from './components/Footer/Footer';
 import Popup from './components/Popup/Popup';
-import BestSelling from './components/BestSelling';
+
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -41,7 +41,7 @@ const App = () => {
       <Testimonials />
       <Footer />
       <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
-      <BestSelling/>
+      
     </div>
   );
 };
